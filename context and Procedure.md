@@ -19,3 +19,5 @@ turn on the hotspot on your laptop
 the esp auto connects to the wifi
 ---(if not check ur pc IP in cmd, and update it in the arduino code)
 now the sensors should be working along with the mic, waiting for its wake up call ARISEEE ;)
+
+Here's a working demo: [linkedin post](https://www.linkedin.com/posts/rahullj_esp32-python-machinelearning-ugcPost-7449909368315154432-VvuE?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcxhh4BNDJtPVUYGwt4h750sntFPf0CEDA)
