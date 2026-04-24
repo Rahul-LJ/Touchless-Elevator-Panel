@@ -18,8 +18,8 @@ const char* WIFI_SSID       = "potatoserver";
 const char* WIFI_PASSWORD   = "12345678";
 
 // Ensure this IP matches your laptop's current hotspot IP!
-const char* SPEECH_API_URL  = "http://172.17.228.77:8080/api/speech";
-const char* COMMAND_API_URL = "http://172.17.228.77:8080/api/command";
+const char* SPEECH_API_URL  = "http:// <enter ur respective IP> :8080/api/speech";
+const char* COMMAND_API_URL = "http:// <enter ur respective IP> :8080/api/command";
 
 // ==================== PIN DEFINITIONS ====================
 #define SENSOR1_TRIG  32
