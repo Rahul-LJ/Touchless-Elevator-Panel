@@ -1,0 +1,21 @@
+The original plan was just to use ultrasonic sensors so you could select a floor by waving your hand,
+perfect for hospitals where you want to avoid contact.
+But I figured it’d be cool to add voice control for people standing further back in the elevator.
+
+I initially tried training a custom audio model to run directly on the ESP32,
+but it just couldn't handle it. I really didn't want to take the easy route and just connect it to a phone's Bluetooth,
+because I wanted the system to be completely independent.
+My workaround was to run the Whisper ML model locally on my PC.
+Now, the ESP32 just picks up the audio and shoots it over WiFi to my local server,
+which does all the heavy lifting and translates the speech to text.
+___________________________________________________________________________________________
+
+-->Procedure
+
+Connections are made according to the code
+Compile and upload it into the esp
+now first run the python code, it starts running a local server on the pc
+turn on the hotspot on your laptop
+the esp auto connects to the wifi
+---(if not check ur pc IP in cmd, and update it in the arduino code)
+now the sensors should be working along with the mic, waiting for its wake up call ARISEEE ;)
